@@ -88,8 +88,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    box-sizing: border-box;
+    background-color: #212121;
+ }
 
+ *, *:before, *:after {
+  box-sizing: inherit;
+}
 
+ body {
+    padding-top: 3em;
+ }
+
+ .navigation_homepage h2 {
+    font-size: 5em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-left: 1.5em; 
+ }
+
+.navigation_homepage p {
+    color: #212121;
+    font-size: 1.2em;
+    font-family: "Times New Roman", serif;
+}
 
 
 
