@@ -91,25 +91,29 @@ textarea {
 html {
     box-sizing: border-box;
     background-color: #212121;
+    height: 100%;
  }
 
  *, *:before, *:after {
   box-sizing: inherit;
 }
 
- body {
-    padding-top: 3em;
- }
+body {
+    min-height: 100%;
+}
 
- .navigation_homepage {}
+.navigation_homepage {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+}
 
  .navigation_homepage h2 {
-    font-size: 9vw;
+    font-size: 8vw;
     font-family: 'Oswald', sans-serif;
     transform: scaleY(1.1);
     letter-spacing: 0.75vw;
     color: white;
-    padding-left: .5em;
     margin: 0em; 
  }
 
@@ -117,28 +121,29 @@ html {
     color: #212121;
     font-size: 1.8vw;
     font-family: "Times New Roman", serif;
-    padding-left: 1.8vw;
     margin: 0em;
 }
 
 .nav_section {
-    border: 1px solid red;
-    padding: 0em;
+    text-decoration: none;
+    display: block;
+    padding-left: 5vw;
     margin: 0em;
     width: 100%;
 }
 
 .nav_section:hover p{
-    color: white !important;
+    color: white;
     transition: color 0.3s;
 }
 
-.navigation_homepage:hover > div {
+.navigation_homepage:hover > a {
   opacity: 0.1;
 }
 
-.navigation_homepage:hover > div:hover {
+.navigation_homepage:hover > a:hover {
   opacity: 1.0;
+  transition: opacity 0.3s;
 }
 
 
