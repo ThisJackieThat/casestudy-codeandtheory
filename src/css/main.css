@@ -100,12 +100,24 @@ html {
 
 body {
     min-height: 100%;
+    /* Flexbox centering 
+    https://davidwalsh.name/css-vertical-center-flexbox
+    */
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
 .navigation_homepage {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); */
+    display: block;
+}
+
+#navigation_homepage:target {
+    display: none;
 }
 
  .navigation_homepage h2 {
@@ -145,20 +157,6 @@ body {
   opacity: 1.0;
   transition: opacity 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
