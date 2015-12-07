@@ -166,7 +166,7 @@ body {
  * Things We Make Portfolio Example Specific CSS Below
  */
 
-nav {
+.navigation_bar {
     background-color: #212121;
     color: white;
     font-weight: bold;
