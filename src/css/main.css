@@ -171,24 +171,25 @@ nav {
     color: white;
     font-weight: bold;
     font-size: 1.4em;
-    padding: 1em;
     position: fixed;
     width: 100%;
     margin: 0;
     top: 0;
-    height: 75px;
     text-align: center;
+    padding-top: 1vw;
  }
 
   .menu_logo a{
     text-decoration: none;
     color: white;
     vertical-align: center;
+    margin: auto;
  }
 
  .portfolio a{
     min-height: 100%;
     width: 100%;
+    position: relative;
  }
 
  .portfolio p{
@@ -209,22 +210,24 @@ nav {
  }
 
 .portfolio img{
-    position: relative;
     width: 100%;
     min-height: 100%;
+    z-index: -10;
 }
 
 .portfolio:link{
-    color: white;
     text-decoration: none;
 }
 
 .portfolio button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
     border: .15em solid white;
     background-color: #F9F9F9;
     color: #212121;
-    font-size: 1.2vw;
-    padding: .75em 1em .75em 1em;
+    padding: .75em 1.2em .75em 1.2em;
+    transition: color 0.3s;
  }
 
  .portfolio button:hover {
