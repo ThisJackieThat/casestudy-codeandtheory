@@ -88,6 +88,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+ * Main page below
+ */
+
 html {
     box-sizing: border-box;
     background-color: #212121;
@@ -157,6 +161,83 @@ body {
   opacity: 1.0;
   transition: opacity 0.3s;
 }
+
+/*
+ * Things We Make Portfolio Example Specific CSS Below
+ */
+
+nav {
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    height: 75px;
+    text-align: center;
+ }
+
+  .menu_logo a{
+    text-decoration: none;
+    color: white;
+    vertical-align: center;
+ }
+
+ .portfolio a{
+    min-height: 100%;
+    width: 100%;
+ }
+
+ .portfolio p{
+    color: white;
+    font-size: 1.6vw;
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+ }
+
+ .portfolio h2{
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    transform: scaleY(1.1);
+    letter-spacing: 0.75vw;
+    color: white;
+    margin: 0em; 
+    padding-bottom: 1.6vw;
+ }
+
+.portfolio img{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.portfolio:link{
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio button{
+    border: .15em solid white;
+    background-color: #F9F9F9;
+    color: #212121;
+    font-size: 1.2vw;
+    padding: .75em 1em .75em 1em;
+ }
+
+ .portfolio button:hover {
+    background-color: transparent;
+    color: white;
+ }
+
+ .project {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    padding: 1.8vw;
+ }
 
 
 /* ==========================================================================
